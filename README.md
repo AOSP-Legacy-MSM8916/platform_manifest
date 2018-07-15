@@ -24,11 +24,11 @@ To initialize your local repository use
 Then to sync up:
 ----------------
 
-    repo sync -j 16
+    repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken --force-sync -j16
 
 Build command is
 ----------------
     export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4000m"
     . build/envsetup.sh
-    lunch aosp_$device-userdebuh
+    lunch aosp_$device-userdebug
     make -jx otapackage
