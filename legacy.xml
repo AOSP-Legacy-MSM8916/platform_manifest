@@ -24,7 +24,7 @@
     </project>
 
     <project path="build/soong" name="platform_build_soong" remote="legacy" revision="android-8.1.0" >
-        <linkfile src="root.bp" dest="platform.bp" />
+        <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
