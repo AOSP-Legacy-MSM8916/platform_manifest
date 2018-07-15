@@ -2,11 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-8.1.0_r41"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-f="true"
+           sync-j="8" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -620,5 +622,11 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
+  <!-- Add all tracked LEGACY AOSP repos -->
+  <include name="legacy.xml" />
 
 </manifest>
