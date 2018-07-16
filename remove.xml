@@ -52,6 +52,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
+  <remove-project name="external/tinycompress" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
@@ -72,6 +73,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/wlan" />
 

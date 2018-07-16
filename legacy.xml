@@ -34,7 +34,8 @@
 
     <!-- external -->
     <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="legacy" revision="android-8.1.0" />
-
+    <project path="external/tinycompress" name="external_tinycompress" remote="legacy" revision="android-8.1.0" />
+    
     <!-- system -->
     <project path="system/bt" name="platform_system_bt" remote="legacy" revision="android-8.1.0" />
     <project path="system/core" name="platform_system_core" remote="legacy" revision="android-8.1.0" />
@@ -46,9 +47,10 @@
     <!-- hardware -->
     <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="legacy" revision="android-8.1.0" />
     <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="legacy" revision="android-8.1.0" />
-    <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" remote="legacy" revision="android-8.1.0" />
-    <project path="hardware/qcom/display" name="platform_hardware_qcom_display" remote="legacy" revision="android-8.1.0" />
-    <project path="hardware/qcom/media" name="platform_hardware_qcom_media" remote="legacy" revision="android-8.1.0" />
+    <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="legacy" revision="android-8.1.0" />
+    <project path="hardware/qcom/audio-caf-8916" name="platform_hardware_qcom_audio" remote="legacy" revision="android-8.1.0-8916-caf" />
+    <project path="hardware/qcom/display-caf-8916" name="platform_hardware_qcom_display" remote="legacy" revision="android-8.1.0-8916-caf" />
+    <project path="hardware/qcom/media-caf-8916" name="platform_hardware_qcom_media" remote="legacy" revision="android-8.1.0-8916-caf" />
     <project path="hardware/ril" name="platform_hardware_ril" remote="legacy" revision="android-8.1.0" />   
     <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="legacy" revision="android-8.1.0" />
     
@@ -62,7 +64,7 @@
     <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="legacy" revision="android-8.1.0" />
     <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="legacy" revision="android-8.1.0" />
     <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="legacy" revision="android-8.1.0" />
-    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legacy" revision="android-8.1.0" />
+    <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legacy" revision="caf" />
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="legacy" revision="android-8.1.0" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="legacy" revision="android-8.1.0" />
     <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="legacy" revision="android-8.1.0" />
