@@ -34,7 +34,7 @@
 
     <!-- external -->
     <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" remote="legacy" revision="android-8.1.0" />
-    <project path="external/tinycompress" name="external_tinycompress" remote="legacy" revision="android-8.1.0" />
+    <project path="external/tinycompress" name="platform_external_tinycompress" remote="legacy" revision="android-8.1.0" />
     
     <!-- system -->
     <project path="system/bt" name="platform_system_bt" remote="legacy" revision="android-8.1.0" />
