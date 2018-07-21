@@ -52,7 +52,6 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
-  <remove-project name="external/tinycompress" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
