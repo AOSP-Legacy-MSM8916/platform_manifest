@@ -67,6 +67,8 @@
     <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="legacy" revision="caf" />
     <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" remote="legacy" revision="android-8.1.0" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="legacy" revision="android-8.1.0" />
+    <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" remote="legacy" revision="android-8.1.0" />
+    <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="legacy" revision="android-8.1.0" />
     <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="legacy" revision="android-8.1.0" />
 	
 	
