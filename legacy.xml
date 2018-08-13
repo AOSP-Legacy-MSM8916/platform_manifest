@@ -6,9 +6,9 @@
           revision="pie-r1" />
 
   <!-- HALS  -->
-  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio-caf-msm8916" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display-caf-msm8916" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media-caf-msm8916" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="android-9.0.0-caf-8916" remote="legacy" />
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="pie-r1"  remote="legacy" />
@@ -67,14 +67,14 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" revision="pie-r1" remote="legacy" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" revision="pie-r1" remote="legacy" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" revision="pie-r1" remote="legacy" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" revision="pie-r1" remote="legacy" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="pie-r1" remote="legacy" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" revision="pie-r1" remote="legacy" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" revision="pie-r1" remote="legacy" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" revision="pie-r1" remote="legacy" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" revision="pie-r1" remote="legacy" />
 
 
   <!-- System Repos -->
