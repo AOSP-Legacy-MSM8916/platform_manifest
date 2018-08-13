@@ -1,4 +1,4 @@
-AOSP LEGACY MSM8916 Manifest FOR ANDROID 8.1.0
+AOSP LEGACY MSM8916 Manifest FOR ANDROID 9.0.0 ( PIE )
 ====================
 
 Create AOSP folder
@@ -18,7 +18,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/AOSP-LEGACY-MSM8916/platform_manifest.git -b android-8.1.0
+    repo init -u https://github.com/AOSP-LEGACY-MSM8916/platform_manifest.git -b pie-r1
     
 
 Then to sync up:
