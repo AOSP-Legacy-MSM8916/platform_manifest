@@ -19,7 +19,6 @@
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" revision="pie-r1"  remote="legacy" />
   <project path="external/connectivity" name="platform_external_connectivity" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/camera" name="platform_hardware_qcom_camera" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" revision="pie-r1"  remote="legacy" />
@@ -30,9 +29,6 @@
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" revision="pie-r1"  remote="legacy" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" revision="pie-r1"  remote="legacy" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" revision="pie-r1"  remote="legacy" />
-  <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" revision="pie-r1"  remote="legacy">
-    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
-  </project>
 
   <!-- External repos -->
   <project path="external/selinux" name="platform_external_selinux" revision="pie-r1"  remote="legacy" />
