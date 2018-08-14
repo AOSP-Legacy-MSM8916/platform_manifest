@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+[B<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <!-- Device repos -->
@@ -129,6 +129,3 @@
   <remove-project name="platform/system/vold" />
 
 </manifest>
-
-
-

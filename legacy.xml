@@ -65,17 +65,20 @@
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" revision="pie-r1" remote="legacy" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="pie-r1" remote="legacy" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" revision="pie-r1" remote="legacy" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" revision="pie-r1" remote="legacy" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" revision="pie-r1" remote="legacy" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" revision="pie-r1" remote="legacy" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" revision="pie-r1" remote="legacy" />
-
 
   <!-- System Repos -->
   <project path="system/bt" name="platform_system_bt" revision="pie-r1" remote="legacy" />
