@@ -6,9 +6,9 @@
           revision="pie-r1" />
 
   <!-- HALS  -->
-  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="pie-r1-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="pie-r1-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="pie-r1-caf-8916" remote="legacy" />
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="pie-r1"  remote="legacy" />
