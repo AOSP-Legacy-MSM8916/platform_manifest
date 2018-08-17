@@ -6,15 +6,16 @@
           revision="pie-r1" />
 
   <!-- HALS  -->
-  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="android-9.0.0-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="pie-r1-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="pie-r1-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="pie-r1-caf-8916" remote="legacy" />
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="pie-r1"  remote="legacy" />
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" revision="pie-r1"  remote="legacy" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" revision="pie-r1"  remote="legacy" />
   <project path="external/connectivity" name="platform_external_connectivity" revision="pie-r1"  remote="legacy" />
+  <project path="external/libbfqio" name="platform_external_libbfqio" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" revision="pie-r1"  remote="legacy" />
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" revision="pie-r1"  remote="legacy" />
