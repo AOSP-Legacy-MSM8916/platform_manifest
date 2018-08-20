@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/AOSP-Legacy-MSM8916/platform_manifest/pie-logo.png">
+<img src="https://github.com/AOSP-Legacy-MSM8916/platform_manifest/raw/pie-r1/pie-logo.png">
 
 AOSP LEGACY MSM8916 Manifest FOR ANDROID 9.0.0 ( PIE )
 ====================
