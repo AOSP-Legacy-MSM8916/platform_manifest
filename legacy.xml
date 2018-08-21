@@ -64,7 +64,8 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="pie-r1" remote="legacy" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" revision="pie-r1" remote="legacy" />
-
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" revision="pie-r1" remote="legacy" />
+  
   <!-- Packages repos -->
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" revision="pie-r1" remote="legacy" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="pie-r1" remote="legacy" />
