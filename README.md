@@ -26,9 +26,11 @@ To initialize your local repository use
 Then to sync up:
 ----------------
 
-    repo sync -f -c --no-tags --no-clone-bundle --optimized-fetch --force-sync --prune -j16
+    repo sync -f -c --no-clone-bundle build/make
+    . build/envsetup.sh
+    reposync -f -c --no-tags --no-clone-bundle --optimized-fetch --force-sync --prune
 
-Build command is
+Build commands are:
 ----------------
     export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4000m"
     export USE_CCACHE=1
