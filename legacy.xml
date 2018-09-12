@@ -3,48 +3,48 @@
 
   <remote name="legacy"
           fetch="https://github.com/AOSP-LEGACY-MSM8916"
-          revision="pie-r1" />
+          revision="android-9.0.0" />
 
   <!-- HALS  -->
-  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="pie-r1-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="pie-r1-caf-8916" remote="legacy" />
-  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="pie-r1-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="android-9.0.0-caf-8916" remote="legacy" />
 
   <!-- CodeAurora additions -->
-  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="pie-r1"  remote="legacy" />
-  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" revision="pie-r1"  remote="legacy" />
-  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" revision="pie-r1"  remote="legacy" />
-  <project path="external/connectivity" name="platform_external_connectivity" revision="pie-r1"  remote="legacy" />
-  <project path="external/libbfqio" name="platform_external_libbfqio" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" revision="pie-r1-caf" remote="legacy" />
-  <project path="hardware/ril" name="platform_hardware_ril" revision="pie-r1"  remote="legacy" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" revision="pie-r1-caf"  remote="legacy" />
-  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" revision="pie-r1"  remote="legacy" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" revision="pie-r1"  remote="legacy" />
-  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" revision="pie-r1"  remote="legacy" />
+  <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="android-9.0.0"  remote="legacy" />
+  <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" revision="android-9.0.0"  remote="legacy" />
+  <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" revision="android-9.0.0"  remote="legacy" />
+  <project path="external/connectivity" name="platform_external_connectivity" revision="android-9.0.0"  remote="legacy" />
+  <project path="external/libbfqio" name="platform_external_libbfqio" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" revision="android-9.0.0-caf" remote="legacy" />
+  <project path="hardware/ril" name="platform_hardware_ril" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" revision="android-9.0.0-caf"  remote="legacy" />
+  <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" revision="android-9.0.0"  remote="legacy" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" revision="android-9.0.0"  remote="legacy" />
+  <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" revision="android-9.0.0"  remote="legacy" />
 
   <!-- External repos -->
-  <project path="external/selinux" name="platform_external_selinux" revision="pie-r1"  remote="legacy" />
-  <project path="external/tinycompress" name="platform_external_tinycompress" revision="pie-r1"  remote="legacy" />
-  <project path="external/perfetto" name="platform_external_perfetto" revision="pie-r1"  remote="legacy" />
+  <project path="external/selinux" name="platform_external_selinux" revision="android-9.0.0"  remote="legacy" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" revision="android-9.0.0"  remote="legacy" />
+  <project path="external/perfetto" name="platform_external_perfetto" revision="android-9.0.0"  remote="legacy" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="platform_frameworks_av" revision="pie-r1"  remote="legacy" />
-  <project path="frameworks/base" name="platform_frameworks_base" revision="pie-r1"  remote="legacy" />
-  <project path="frameworks/native" name="platform_frameworks_native" revision="pie-r1"  remote="legacy" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="pie-r1"  remote="legacy" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" revision="pie-r1"  remote="legacy" />
-  <project path="frameworks/support" name="platform_frameworks_support" revision="pie-r1"  remote="legacy" />
+  <project path="frameworks/av" name="platform_frameworks_av" revision="android-9.0.0"  remote="legacy" />
+  <project path="frameworks/base" name="platform_frameworks_base" revision="android-9.0.0"  remote="legacy" />
+  <project path="frameworks/native" name="platform_frameworks_native" revision="android-9.0.0"  remote="legacy" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="android-9.0.0"  remote="legacy" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" revision="android-9.0.0"  remote="legacy" />
+  <project path="frameworks/support" name="platform_frameworks_support" revision="android-9.0.0"  remote="legacy" />
 
   <!-- General repos -->
-  <project path="art" name="platform_art" revision="pie-r1" remote="legacy" />
-  <project path="bionic" name="platform_bionic" revision="pie-r1" remote="legacy" />
-  <project path="build/make" name="platform_build_make" revision="pie-r1" remote="legacy">
+  <project path="art" name="platform_art" revision="android-9.0.0" remote="legacy" />
+  <project path="bionic" name="platform_bionic" revision="android-9.0.0" remote="legacy" />
+  <project path="build/make" name="platform_build_make" revision="android-9.0.0" remote="legacy">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -53,43 +53,43 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="platform_build_soong" revision="pie-r1" remote="legacy">
+  <project path="build/soong" name="platform_build_soong" revision="android-9.0.0" remote="legacy">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/kati" name="platform_build_kati" revision="pie-r1" remote="legacy" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" revision="pie-r1" remote="legacy" />
-  <project path="development" name="platform_development" revision="pie-r1" remote="legacy" />
+  <project path="build/kati" name="platform_build_kati" revision="android-9.0.0" remote="legacy" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" revision="android-9.0.0" remote="legacy" />
+  <project path="development" name="platform_development" revision="android-9.0.0" remote="legacy" />
 
   <!-- Hardware repos -->
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="pie-r1" remote="legacy" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" revision="pie-r1" remote="legacy" />
-  <project path="hardware/interfaces" name="platform_hardware_interfaces" revision="pie-r1" remote="legacy" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="android-9.0.0" remote="legacy" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" revision="android-9.0.0" remote="legacy" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" revision="android-9.0.0" remote="legacy" />
   
   <!-- Packages repos -->
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" revision="pie-r1" remote="legacy" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="pie-r1" remote="legacy" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" revision="pie-r1" remote="legacy" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" revision="pie-r1" remote="legacy" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" revision="pie-r1" remote="legacy" />
-  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" revision="pie-r1" remote="legacy" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" revision="pie-r1" remote="legacy" />
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/Messaging" name="platform_packages_apps_Messaging" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/DocumentsUI" name="platform_packages_apps_DocumentsUI" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/FMRadio" name="platform_packages_apps_FMRadio" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" revision="android-9.0.0" remote="legacy" />
+  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" revision="android-9.0.0" remote="legacy" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="platform_system_bt" revision="pie-r1" remote="legacy" />
-  <project path="system/core" name="platform_system_core" revision="pie-r1" remote="legacy" />
-  <project path="system/extras" name="platform_system_extras" revision="pie-r1" remote="legacy" />
-  <project path="system/security" name="platform_system_security" revision="pie-r1" remote="legacy" />
-  <project path="system/vold" name="platform_system_vold" revision="pie-r1" remote="legacy" />
-  <project path="system/qcom" name="platform_system_qcom" revision="pie-r1" remote="legacy" />
-  <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" revision="pie-r1"  remote="legacy" />
+  <project path="system/bt" name="platform_system_bt" revision="android-9.0.0" remote="legacy" />
+  <project path="system/core" name="platform_system_core" revision="android-9.0.0" remote="legacy" />
+  <project path="system/extras" name="platform_system_extras" revision="android-9.0.0" remote="legacy" />
+  <project path="system/security" name="platform_system_security" revision="android-9.0.0" remote="legacy" />
+  <project path="system/vold" name="platform_system_vold" revision="android-9.0.0" remote="legacy" />
+  <project path="system/qcom" name="platform_system_qcom" revision="android-9.0.0" remote="legacy" />
+  <project path="system/tools/dtbtool" name="platform_system_tools_dtbtool" revision="android-9.0.0"  remote="legacy" />
 
 </manifest>
