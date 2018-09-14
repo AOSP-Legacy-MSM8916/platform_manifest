@@ -83,7 +83,10 @@
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" revision="android-9.0.0" remote="legacy" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" revision="android-9.0.0" remote="legacy" />
 
-  <!-- System Repos -->
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/build-tools" name="platform_prebuilts_build-tools" revision="android-9.0.0" remote="legacy" />
+
+  <!-- System repos -->
   <project path="system/bt" name="platform_system_bt" revision="android-9.0.0" remote="legacy" />
   <project path="system/core" name="platform_system_core" revision="android-9.0.0" remote="legacy" />
   <project path="system/extras" name="platform_system_extras" revision="android-9.0.0" remote="legacy" />
