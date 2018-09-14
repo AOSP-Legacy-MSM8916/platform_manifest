@@ -59,7 +59,6 @@
   </project>
   <project path="build/kati" name="platform_build_kati" revision="android-9.0.0" remote="legacy" />
   <project path="bootable/recovery" name="platform_bootable_recovery" revision="android-9.0.0" remote="legacy" />
-  <project path="development" name="platform_development" revision="android-9.0.0" remote="legacy" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="android-9.0.0" remote="legacy" />
