@@ -25,6 +25,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" revision="android-9.0.0"  remote="legacy" />
   <project path="hardware/ril-caf" name="platform_hardware_ril" revision="android-9.0.0-caf"  remote="legacy" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" revision="android-9.0.0"  remote="legacy" />
+  <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" revision="android-9.0.0"  remote="legacy" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" revision="android-9.0.0"  remote="legacy" />
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" revision="android-9.0.0"  remote="legacy" />
 
