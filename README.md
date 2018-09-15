@@ -20,7 +20,7 @@ Configure git (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/AOSP-LEGACY-MSM8916/platform_manifest.git -b pie-r1
+    repo init -u https://github.com/AOSP-LEGACY-MSM8916/platform_manifest.git -b android-9.0.0
     
 
 Then to sync up:
