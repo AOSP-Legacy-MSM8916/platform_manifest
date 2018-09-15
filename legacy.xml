@@ -7,23 +7,22 @@
 
   <!-- HALS  -->
   <project path="hardware/qcom/audio-caf-msm8916" name="platform_hardware_qcom_audio" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" revision="android-9.0.0-caf"  remote="legacy" />
   <project path="hardware/qcom/display-caf-msm8916" name="platform_hardware_qcom_display" revision="android-9.0.0-caf-8916" remote="legacy" />
+  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" revision="android-9.0.0"  remote="legacy" />
   <project path="hardware/qcom/media-caf-msm8916" name="platform_hardware_qcom_media" revision="android-9.0.0-caf-8916" remote="legacy" />
-
+  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" revision="android-9.0.0-caf" remote="legacy" />
+  
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="platform_external_ant-wireless_ant_native" revision="android-9.0.0"  remote="legacy" />
   <project path="external/ant-wireless/ant_service" name="platform_external_ant-wireless_ant_service" revision="android-9.0.0"  remote="legacy" />
   <project path="external/ant-wireless/antradio-library" name="platform_external_ant-wireless_antradio-library" revision="android-9.0.0"  remote="legacy" />
   <project path="external/connectivity" name="platform_external_connectivity" revision="android-9.0.0"  remote="legacy" />
   <project path="external/libbfqio" name="platform_external_libbfqio" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/qcom/bt" name="platform_hardware_qcom_bt" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/qcom/fm" name="platform_hardware_qcom_fm" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/qcom/wlan-caf" name="platform_hardware_qcom_wlan" revision="android-9.0.0-caf" remote="legacy" />
-  <project path="hardware/ril" name="platform_hardware_ril" revision="android-9.0.0"  remote="legacy" />
-  <project path="hardware/ril-caf" name="platform_hardware_ril" revision="android-9.0.0-caf"  remote="legacy" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" revision="android-9.0.0"  remote="legacy" />
   <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" revision="android-9.0.0"  remote="legacy" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" revision="android-9.0.0"  remote="legacy" />
@@ -65,6 +64,8 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="android-9.0.0" remote="legacy" />
   <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" revision="android-9.0.0" remote="legacy" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" revision="android-9.0.0" remote="legacy" />
+  <project path="hardware/ril" name="platform_hardware_ril" revision="android-9.0.0"  remote="legacy" />
+  <project path="hardware/ril-caf" name="platform_hardware_ril" revision="android-9.0.0-caf"  remote="legacy" />
   
   <!-- Packages repos -->
   <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" revision="android-9.0.0" remote="legacy" />
