@@ -29,6 +29,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" revision="android-9.0.0"  remote="legacy" />
 
   <!-- External repos -->
+  <project path="external/arm-optimized-routines" name="platform_external_arm-optimized-routines" revision="android-9.0.0"  remote="legacy" />
   <project path="external/selinux" name="platform_external_selinux" revision="android-9.0.0"  remote="legacy" />
   <project path="external/tinycompress" name="platform_external_tinycompress" revision="android-9.0.0"  remote="legacy" />
   <project path="external/perfetto" name="platform_external_perfetto" revision="android-9.0.0"  remote="legacy" />
